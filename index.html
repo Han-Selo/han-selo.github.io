@@ -7,111 +7,71 @@
     <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
     <style>
         :root {
-            --global-font-size: 15px;
-            --global-line-height: 1.4em;
-            --global-space: 10px;
-            --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-            --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-            --background-color: #222225;
-            --page-width: 60em;
-            --font-color: #e8e9ed;
-            --invert-font-color: #222225;
-            --secondary-color: #a3abba;
-            --tertiary-color: #a3abba;
-            --primary-color: #1ac710;
-            --error-color: #ff3c74;
-            --progress-bar-background: #3f3f44;
-            --progress-bar-fill: #62c4ff;
-            --code-bg-color: #3f3f44;
-            --input-style: solid;
-            --display-h1-decoration: none;
-        }
-
-        a {
-            color: var(--primary-color);
-            text-decoration: none;
-            transition: opacity 0.2s ease;
-        }
-
-        a:hover {
-            opacity: 0.8;
-        }
-
-        .social-links {
-            list-style: none;
-            padding: 0;
-        }
-
-        .social-links li {
-            margin-bottom: 10px;
-        }
-
-        .avatar {
-            border-radius: 50%;
-            margin: 2rem auto;
-            display: block;
-            width: 25%;
-            height: auto;
+        --global-font-size: 15px;
+        --global-line-height: 1.4em;
+        --global-space: 10px;
+        --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        --background-color: #222225;
+        --page-width: 60em;
+        --font-color: #e8e9ed;
+        --invert-font-color: #222225;
+        --secondary-color: #a3abba;
+        --tertiary-color: #a3abba;
+        --primary-color: #1ac710;
+        --error-color: #ff3c74;
+        --progress-bar-background: #3f3f44;
+        --progress-bar-fill: #62c4ff;
+        --code-bg-color: #3f3f44;
+        --input-style: solid;
+        --display-h1-decoration: none;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="terminal-nav">
-            <header class="terminal-logo">
-                <div class="logo terminal-prompt">
-                    <a href="index.html" title="Home">Selahaddin Inan</a>
-                </div>
-            </header>
-            <nav class="terminal-menu" aria-label="Main navigation">
-                <ul>
-                    <li class="menu-item"><a href="index.html" title="About me">About</a></li>
-                    <li class="menu-item"><a href="projects.html" title="My projects">Projects</a></li>
-                    <li class="menu-item"><a href="blog.html" title="My blog posts">Blog</a></li>
-                </ul>
-            </nav>
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt"><a href="index.html">Selahaddin Inan</a></div>
+          </header>
+          <nav class="terminal-menu">
+            <ul typeof="BreadcrumbList">
+              <li class="menu-item"><a href="index.html">About</a></li>
+              <li class="menu-item"><a href="projects.html">Projects</a></li>
+              <li class="menu-item"><a href="blog.html">Blog</a></li>
+            </ul>
+          </nav>
         </div>
-    </div>
+      </div>
     <div class="container">
-        <figure>
-            <img src="./assets/avatar-modified.jpeg" alt="Selahaddin Inan's profile picture" class="avatar">
-        </figure>
+      <figure style="text-align: center;">
+        <img src="./assets/avatar-modified.jpeg" alt="..." style="width: 25%;">
+      </figure>
         <h1>Hello there! 👋 I'm Selahaddin Inan</h1>
         <h3>A high school student and software developer based in Munich, Germany</h3>
         <p>
-            I have a strong interest in <b>competitive programming</b>, <b>artificial intelligence</b>, and <b>software development</b>. 
-            With extensive experience in Python and problem-solving sharpened through platforms like Codeforces and the 
-            <a href="https://bwinf.de" target="_blank" rel="noopener noreferrer" title="German National Informatics Competition">German National Informatics Competition (BWINF)</a> 
-            — I enjoy tackling challenging problems and exploring the depths of <b>machine learning and deep learning</b>.
+          I have a strong interest in <b>competitive programming</b>, <b>artificial intelligence</b>, and <b>software development</b>. With extensive experience in Python and problem-solving sharpened through platforms like Codeforces and the <a href="https://bwinf.de">German National Informatics Competition (BWINF)</a> — I enjoy tackling challenging problems and exploring the depths of <b>machine learning and deep learning</b>.
         </p>
         <p>
-            Beyond coding, I lead a <a href="https://hackclub.com/" target="_blank" rel="noopener noreferrer" title="Hack Club">Hack Club</a>, 
-            where I foster a community of creativity, collaboration, and hands-on learning. I also enjoy sharing knowledge through workshops and mentorship.
+          Beyond coding, I lead a <a href="https://hackclub.com/">Hack Club</a>, where I foster a community of creativity, collaboration, and hands-on learning. I also enjoy sharing knowledge through workshops and mentorship.
         </p>
         <p>
-            Furthermore, I lead the initiative <a href="https://schuelerai.com" target="_blank" rel="noopener noreferrer" title="SchülerAI">SchülerAI</a>, 
-            with the goal of democratizing AI and teaching it to German high schoolers.
+          Furthermore, I lead the initiative <a href="https://schuelerai.com">SchülerAI</a>, with the goal of democratizing AI and teaching it to German high schoolers.
         </p>
         <p>
-            Fluent in <b>German, English, and Turkish</b> (and dabbling in French), I'm always eager to connect with like-minded individuals and make a meaningful impact in the tech world.
+          Fluent in <b>German, English, and Turkish</b> (and dabbling in French), I’m always eager to connect with like-minded individuals and make a meaningful impact in the tech world.
         </p>
         <blockquote>
-            If you're not doing some things that are crazy, then you're doing the wrong things.
-            <footer>
-                Larry Page
-            </footer>
+          If you’re not doing some things that are crazy, then you’re doing the wrong things.
+          <footer>
+            Larry Page
+          </footer>
         </blockquote>
-        <p>My Socials:</p>
-        <ul class="social-links">
-            <li>
-                <a href="https://www.linkedin.com/in/selahaddin-inan/" target="_blank" rel="noopener noreferrer" title="Connect with me on LinkedIn">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://github.com/Han-Selo" target="_blank" rel="noopener noreferrer" title="Check out my GitHub projects">GitHub</a>
-            </li>
-            <li>
-                <a href="mailto:iseloinan@gmail.com" title="Send me an email">Email</a>
-            </li>
+        <p>My Socials: </p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/selahaddin-inan/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/Han-Selo" target="_blank">GitHub</a></li>
+          <li><a href="mailto:iseloinan@gmail.com">Email</a></li>
         </ul>
     </div>
 </body>
